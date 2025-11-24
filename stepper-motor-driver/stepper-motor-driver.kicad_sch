@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "daa09f9b-cd8d-41e7-aeb1-7c84d26fe45e")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.654 25.908)
+		(size 50.292 25.654)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3027a0c-5d5b-4d16-ab4c-f5125fdf1bee")
+		(property "Sheetname" "full-step-driver"
+			(at 25.654 25.1964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "full-step.kicad_sch"
+			(at 25.654 52.1466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepper-motor-driver"
+				(path "/daa09f9b-cd8d-41e7-aeb1-7c84d26fe45e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
