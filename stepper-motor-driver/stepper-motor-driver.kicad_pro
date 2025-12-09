@@ -239,6 +239,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -415,6 +416,22 @@
     [
       "a3027a0c-5d5b-4d16-ab4c-f5125fdf1bee",
       "full-step-driver"
+    ],
+    [
+      "2efea984-a504-4710-87d7-32aff3545785",
+      "h-bridge"
+    ],
+    [
+      "92a16b32-f4a1-4316-bc93-f7cc753bc53c",
+      "h-bridge-gate-drivers"
+    ],
+    [
+      "56f96065-98b1-491c-aa05-a59af0dbdea1",
+      "boost-converter"
+    ],
+    [
+      "31e127db-b15e-4f9f-a11a-46823353b03f",
+      "boost-converter-gate-driver"
     ]
   ],
   "text_variables": {}

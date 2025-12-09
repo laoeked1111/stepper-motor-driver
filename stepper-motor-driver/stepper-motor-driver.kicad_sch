@@ -6,6 +6,174 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 153.67 29.21)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2efea984-a504-4710-87d7-32aff3545785")
+		(property "Sheetname" "h-bridge"
+			(at 153.67 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "h-bridge.kicad_sch"
+			(at 153.67 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepper-motor-driver"
+				(path "/daa09f9b-cd8d-41e7-aeb1-7c84d26fe45e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 73.66)
+		(size 45.72 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31e127db-b15e-4f9f-a11a-46823353b03f")
+		(property "Sheetname" "boost-converter-gate-driver"
+			(at 86.36 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost-gate-driver.kicad_sch"
+			(at 86.36 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepper-motor-driver"
+				(path "/daa09f9b-cd8d-41e7-aeb1-7c84d26fe45e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 73.66)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "56f96065-98b1-491c-aa05-a59af0dbdea1")
+		(property "Sheetname" "boost-converter"
+			(at 31.75 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "boost-converter.kicad_sch"
+			(at 31.75 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepper-motor-driver"
+				(path "/daa09f9b-cd8d-41e7-aeb1-7c84d26fe45e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 45.72 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "92a16b32-f4a1-4316-bc93-f7cc753bc53c")
+		(property "Sheetname" "h-bridge-gate-drivers"
+			(at 88.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gate-drivers.kicad_sch"
+			(at 88.9 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "stepper-motor-driver"
+				(path "/daa09f9b-cd8d-41e7-aeb1-7c84d26fe45e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.654 25.908)
 		(size 50.292 25.654)
 		(exclude_from_sim no)
