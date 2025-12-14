@@ -975,6 +975,12 @@
 		(uuid "3ce6d1f4-0dc2-428d-bd83-2dd4f44b33ff")
 	)
 	(junction
+		(at 149.86 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45fc7557-ebc2-4323-b6cd-b0a43036d524")
+	)
+	(junction
 		(at 168.91 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1041,12 +1047,6 @@
 		(uuid "c62cccf7-3f92-4a50-8f03-7ce938559e2c")
 	)
 	(junction
-		(at 149.098 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb855463-fecf-495b-a50d-a76d7ed146c0")
-	)
-	(junction
 		(at 168.91 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1063,16 +1063,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efbda06e-65dc-4062-8974-dd518e924452")
-	)
-	(wire
-		(pts
-			(xy 149.098 59.69) (xy 153.67 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a670e2-dcf7-46ea-858e-4a3960e7ef7d")
 	)
 	(wire
 		(pts
@@ -1626,6 +1616,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 59.69) (xy 153.67 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e1db21-4c77-4cd6-a51c-ad1b40214775")
+	)
+	(wire
+		(pts
 			(xy 82.55 67.31) (xy 87.63 67.31)
 		)
 		(stroke
@@ -1666,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 59.69) (xy 149.098 59.69)
+			(xy 143.51 59.69) (xy 149.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1696,7 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.098 55.88) (xy 149.098 59.69)
+			(xy 149.86 57.15) (xy 149.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2390,7 +2390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 110.49 71.12 0)
 			(effects
 				(font
@@ -2775,7 +2775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 153.67 71.12 0)
 			(effects
 				(font
@@ -2913,7 +2913,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 149.098 55.88 0)
+		(at 149.86 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2923,7 +2923,7 @@
 		(fields_autoplaced yes)
 		(uuid "55060170-2ddf-4a26-b144-3e4fe2d5d9c7")
 		(property "Reference" "TP12"
-			(at 146.558 51.3079 0)
+			(at 147.32 52.5779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2932,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 146.558 53.8479 0)
+			(at 147.32 55.1179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2941,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
-			(at 144.018 55.88 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.018 55.88 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2959,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 149.098 55.88 0)
+			(at 149.86 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 153.67 115.57 0)
 			(effects
 				(font
@@ -3646,7 +3646,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 153.67 45.72 0)
 			(effects
 				(font
@@ -3871,7 +3871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 153.67 140.97 0)
 			(effects
 				(font
@@ -3959,7 +3959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 110.49 140.97 0)
 			(effects
 				(font
@@ -4047,7 +4047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal"
 			(at 110.49 45.72 0)
 			(effects
 				(font
